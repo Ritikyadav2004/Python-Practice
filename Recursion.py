@@ -42,11 +42,36 @@
 
 #print n to n1using recursion
 
+# def printf(n):
+#     if(n==1):
+#         return 1
+#     print(n)
+#     return printf(n-1)
+
+
+# print(printf(5))
+
+# printing 1 to n using recursion
+
+
+
+# def oneToN(n,end):
+
+#     if(n==end):
+#         return n
+#     print(n)
+#     return oneToN(n+1,end)
+
+# print(oneToN(1,5))
+
+
+# another way to print one to n 
 def printf(n):
-    if(n==1):
-        return 1
+    if(n==0):
+        return
+    printf(n-1)
     print(n)
-    return printf(n-1)
+    
 
 
 print(printf(5))
