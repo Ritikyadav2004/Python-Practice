@@ -30,10 +30,24 @@
 
 
 # sum of n natural number
-def sum(n):
-    if(n==1):
-       return 1
+# def sum(n):
+#     if(n==1):
+#        return 1
     
-    return n+sum(n-1)
+#     return n+sum(n-1)
 
-print(sum(10))
+# print(sum(10))
+
+
+
+#print n to n1using recursion
+
+def printf(n):
+    if(n==1):
+        return 1
+    print(n)
+    return printf(n-1)
+
+
+print(printf(5))
+
