@@ -66,13 +66,28 @@
 
 
 # another way to print one to n 
-def printf(n):
-    if(n==0):
-        return
-    printf(n-1)
-    print(n)
+# def printf(n):
+#     if(n==0):
+#         return
+#     printf(n-1)
+#     print(n)
     
 
 
-print(printf(5))
+# print(printf(5))
+
+
+
+#print 1 to n using recursion
+def even(n):
+    if(n==1):
+        return 
+        
+    even(n-1)
+    if n%2==0:
+        print(n)  
+
+even(6)
+        
+        
 
