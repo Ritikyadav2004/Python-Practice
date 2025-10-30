@@ -79,15 +79,26 @@
 
 
 #print 1 to n using recursion
-def even(n):
-    if(n==1):
-        return 
+# def even(n):
+#     if(n==1):
+#         return 
         
-    even(n-1)
-    if n%2==0:
-        print(n)  
+#     even(n-1)
+#     if n%2==0:
+#         print(n)  
 
-even(6)
+# even(6)
         
+
+
+#sum of digit 1 to m
+
+def sum(n):
+    if(n==0):
+        return 0
+    else:
+        return n + sum(n-1)
         
+print(sum(10))
+
 
