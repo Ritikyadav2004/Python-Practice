@@ -10,6 +10,14 @@
 # multiply =lambda x,y :x*y
 # print(multiply(5,3))
 
-add = lambda a,b,c: (a+b)*c
+# add = lambda a,b,c: (a+b)*c
+# print(add(2,4,2))
 
-print(add(2,4,2))
+
+
+#sum of digit ]
+#using the formula
+#sum = n*(n+1)/2
+
+sumOfDigit = lambda n:(n*(n+1))//2
+print(sumOfDigit(10))
