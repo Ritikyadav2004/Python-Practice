@@ -43,8 +43,12 @@
 from functools import reduce
 num=1234
 
-digits = list(map(int,str(num)))  #['1','2','3','4']-->num then int convert into --> [1,2,3,4]
-#x->1,y->2, then x me 3 and y me 3 then  x me 6 then y me 4 then x me 10 and return
-sumOfDigit=reduce(lambda x,y:x+y,digits) # x and y starting value 
+# digits = list(map(int,str(num)))  #['1','2','3','4']-->num then int convert into --> [1,2,3,4]
+# #x->1,y->2, then x me 3 and y me 3 then  x me 6 then y me 4 then x me 10 and return
+# sumOfDigit=reduce(lambda x,y:x+y,digits) # x and y starting value 
 
-print(sumOfDigit)
+# print(sumOfDigit)
+
+devide = lambda x,y: x/y;
+
+print(devide(5,2))
