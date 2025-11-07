@@ -90,7 +90,7 @@ List = [54,45,51,5,1,84,51,4,841,]
 
 SortedList = sorted(List)
 print(SortedList) # print in sorted manner 
-print(List)  # original list will return 
+# print(List)  # original list will return 
 
 List.sort() # it modify this original list 
-print(List)
+# print(List)
